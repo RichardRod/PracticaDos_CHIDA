@@ -37,11 +37,6 @@ public class ProcesoCliente extends Proceso {
         byte[] respCliente = new byte[1024];
         byte dato;
 
-        //empacar idOrigen
-
-
-        //empacar idDestino
-
         //empacar CODOP
         solCliente[8] = (byte) codigoOperacion;
 
